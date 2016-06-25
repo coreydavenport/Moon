@@ -23,6 +23,7 @@ body {
 	    background-image: none !important;
 		background: $white;
 	}
+	@include linearGradient(#9533ea,#FB89FF);
 }
 * {
 	box-sizing: border-box;
