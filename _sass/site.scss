@@ -24,7 +24,7 @@ body {
 		background: $white;
 	}
 	@include linearGradient(#9533ea,#FB89FF);
-	background-repeat: no-repeat;
+	overflow: auto;
 }
 * {
 	box-sizing: border-box;
@@ -177,6 +177,11 @@ header .entry-meta {
 	@media #{$notsmall} {
 		display: block;
 	}
+}
+
+.header {
+	overflow: auto;
+	background-repeat: no-repeat;
 }
 .entry-title a {
     text-decoration: none;
