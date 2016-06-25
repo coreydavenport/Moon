@@ -24,6 +24,7 @@ body {
 		background: $white;
 	}
 	@include linearGradient(#9533ea,#FB89FF);
+	background-repeat: no-repeat;
 }
 * {
 	box-sizing: border-box;
@@ -69,6 +70,7 @@ body {
 	-webkit-align-items: center;
 	-ms-flex-align: center;
 	align-items: center;
+	overflow: auto;
 }
 .container {
 	width: 36rem;
