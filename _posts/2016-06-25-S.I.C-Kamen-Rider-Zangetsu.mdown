@@ -2,7 +2,7 @@
 layout: post
 title: "S.I.C Kamen Rider Zangetsu PRE-ORDER now available!"
 date: 2016-06-25
-excerpt: "Shortly following the releas of S.I.C Gaim, Pre-orders for Zangetsu have started!"
+excerpt: "Shortly following the release of S.I.C Gaim, Pre-orders for Zangetsu have started!"
 feature: https://cdn.shopify.com/s/files/1/0642/6255/products/1000104669_1_large.jpg?v=1466905638
 tags: [Gaim, S.I.C, Zangetsu, Figure]
 comments: true
