@@ -16,17 +16,17 @@ layout: compress
         <div class="container animated fadeIn">
             <div class="row">
                     <a href="{{ site.url }}">
-                        <img src="{{ site.logo }}" class="img-circle zoombtn animated rotateIn">
+                        <img src="{{ site.logo }}" class="zoombtn animated rotateIn">
                     </a>
                     <h3 class="title">
                         <a class="zoombtn" href="{{ site.url }}">
-                        	<p style="font-size: 3.0em;font-weight:600">{{ site.title }}</p>
+                        	<p style="font-size: 4.5em;font-weight:600; letter-spacing:-5px; margin:20px; color:#9533ea;">{{ site.title }}</p>
 			            </a>
                     </h3>
                     <hr class="hr-line">
                     <h3 class="title">
                         <a href="{{ site.url }}">
-                        	<p style="font-size:1rem;font-weight:300">{{ site.bio }}</p>
+                        	<p style="font-size:1.5rem;font-weight:500">{{ site.bio }}</p>
 			            </a>
                     </h3>
                     {% include social-links.html %}
@@ -37,9 +37,6 @@ layout: compress
                          </a>
                          <a class="btn zoombtn" href="{{ site.url }}/posts">
                          Posts
-                         </a>
-                         <a class="btn zoombtn" href="{{ site.url }}/projects">
-                         Projects
                          </a>
                  </h3>
             </div>
@@ -55,7 +52,7 @@ layout: compress
                         {% if post.project == null %}
                     <ul>
                         <li class="wow fadeInLeft" data-wow-duration="1.5s">
-                            <a class="zoombtn" href="{{ site.url }}{{ post.url }}">{{ post.title }}</a>
+                            <a class="zoombtn" href="{{ site.url }}{{ post.url }}" style="font-size:40px; letter-spacing:-2.5px;">{{ post.title }}</a>
                             <p>{{ post.excerpt }}</p>
                             <a href="{{ site.url }}{{ post.url }}" class="btn zoombtn">Read More</a>
                         </li>
